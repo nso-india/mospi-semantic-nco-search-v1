@@ -1,0 +1,51 @@
+emp_id,job_title,department
+E001,Software Engineer,IT
+E002,Kisan,Agriculture
+E003,Senior Software Developer,IT
+E004,Secondary School Teacher,Education
+E005,Tractor Driver,Transport
+E006,Data Analyst,IT
+E007,Agricultural Worker,Agriculture
+E008,Nurse,Healthcare
+E009,Programmer,IT
+E010,शिक्षक (Teacher),Education
+E011,Accountant,Finance
+E012,Machine Operator,Manufacturing
+E013,Construction Worker,Infrastructure
+E014,Marketing Manager,Sales
+E015,कृषि मजदूर (Farm Laborer),Agriculture
+E016,Electrician,Infrastructure
+E017,कार चालक (Car Driver),Transport
+E018,Front-end Developer,IT
+E019,Medical Representative,Healthcare
+E020,Supervisor,Manufacturing
+E021,Sales Executive,Sales
+E022,खेती करने वाला (Farmer),Agriculture
+E023,Junior Programmer,IT
+E024,Administrative Assistant,Admin
+E025,Civil Engineer,Infrastructure
+E026,Shopkeeper,Retail
+E027,Help Desk Support,IT
+E028,Plumber,Infrastructure
+E029,Store Manager,Retail
+E030,तकनीशियन (Technician),Manufacturing
+E031,Chef,Hospitality
+E032,Housekeeping Staff,Hospitality
+E033,Project Manager,IT
+E034,Security Guard,Security
+E035,Pharmacist,Healthcare
+E036,Delivery Boy,Transport
+E037,Bus Driver,Transport
+E038,Carpenter,Infrastructure
+E039,Barber,Services
+E040,Veterinarian,Healthcare
+E041,डॉक्टर (Doctor),Healthcare
+E042,Tailor,Manufacturing
+E043,Printing Press Operator,Manufacturing
+E044,Consultant,IT
+E045,Receptionist,Admin
+E046,Legal Assistant,Admin
+E047,Jeweler,Manufacturing
+E048,Baker,Manufacturing
+E049,Coal Miner,Mining
+E050,Helper,Services

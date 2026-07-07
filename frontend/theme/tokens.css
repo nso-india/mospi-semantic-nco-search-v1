@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --bg: #FFFFFF;
+    --bg-subtle: #EEF2FA;
+    --surface: #FFFFFF;
+    --border: #D1D9E8;
+    --border-strong: #A8B8D8;
+
+    --text: #0B1120;
+    --text-secondary: #334155;
+    --text-muted: #64748B;
+
+    --primary: #173273;
+    --primary-soft: #274996;
+    --accent: #173273;
+    --accent-soft: #274996;
+
+    --success: #22C55E;
+    --danger: #EF4444;
+    --focus-ring: rgba(23, 50, 115, 0.3);
+  }
+
+  body {
+    @apply bg-bg text-text-secondary font-sans antialiased;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply text-text font-bold;
+  }
+}
+
+@layer utilities {
+  .text-gradient {
+    @apply bg-clip-text text-transparent;
+    background-image: linear-gradient(135deg, var(--primary) 0%, var(--primary-soft) 100%);
+  }
+}

@@ -1,0 +1,53 @@
+@import "../theme/tokens.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --violet: #5a32d6;
+    --indigo: #3742d6;
+    --coral: #ef6a4d;
+    --teal: #0f9b8e;
+    --amber: #d8902c;
+    --rose: #d6486f;
+    --weave: linear-gradient(105deg, #5a32d6 0%, #6e36d0 46%, #ef6a4d 100%);
+  }
+
+  [data-theme="dark"] {
+    --violet: #7c5cfa;
+    --indigo: #5c6cfa;
+    --coral: #ff8c73;
+    --teal: #2bd4c4;
+    --amber: #ffb752;
+    --rose: #ff759f;
+  }
+}
+
+@layer utilities {
+  .animate-fadeUp {
+    animation: fadeUp 0.3s ease-out forwards;
+  }
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Dashboard specific classes that map to the tokens/variables */
+.dashboard-card {
+  @apply bg-surface border border-border rounded-[18px] shadow-sm;
+}
