@@ -1,12 +1,21 @@
-Languages: JavaScript (ES6+), Java, Python, C++, SQL, HTML5, CSS3
-Frontend: React.js, Bootstrap, Responsive Web Design
-Backend: Node.js, Express.js, Spring Boot, REST APIs, Socket.io
-Databases: MongoDB, MySQL, Database Design, Query Optimization
-DevOps & Tools: Docker, Git, GitHub, VS Code, Eclipse, Postman
-Concepts: MERN Stack, Microservices, OOP, Data Structures, Agile# MoSPI NCO-Code Finder
+<!--
+  Easter egg: hidden developer credits for MoSPI NCO-Code Finder.
 
-An advanced, AI-powered semantic search and classification engine designed to seamlessly map messy, real-world, and multilingual job titles to standard **NCO 2015 (National Classification of Occupations)** codes entirely on your own hardware without relying on closed-source APIs.
+  Made with love by:
+    - The MoSPI NCO-Code Finder Team
 
+  Welcome, traveler. You found the hidden credits. Status: Legendary.
+-->
+# MoSPI NCO-Code Finder — AI Occupation Intelligence
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/downloads/)
+[![Next.js](https://img.shields.io/badge/Next.js-14-black.svg)](https://nextjs.org/)
+[![Docker](https://img.shields.io/badge/Docker-Supported-blue.svg)](https://www.docker.com/)
+
+MoSPI NCO-Code Finder is an advanced, AI-powered semantic search and classification engine designed to seamlessly map messy, real-world, and multilingual job titles to standard **NCO 2015 (National Classification of Occupations)** codes.
+
+By leveraging cutting-edge Vector Databases, fully local LLM-based reranking (Gemma via Ollama), and multilingual translation models, MoSPI NCO-Code Finder transforms how occupational data is standardized across India and beyond, entirely on your own hardware without relying on closed-source APIs.
 ---
 
 ## Table of Contents
